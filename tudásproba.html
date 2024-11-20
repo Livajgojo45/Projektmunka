@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="aaa.css">
+<style>
+    .card-button {
+        width: 100%;
+    }
+    
+    .btn {
+            width: 100%; /* Gomb teljes szélesség */
+            height: 100%; /* Gomb teljes magasság */
+            color: #006d77  ;
+        }
+</style>
+<title>Tudásproba</title>
+</head>
+<body>
+    <div class=" container-fluid p-3">
+        <div class="row">
+            <!-- Első card -->
+            <div class="col-md-6 mb-4">
+              <div class="card border-secondary mb-3" class="card">
+                <div class="card-header">
+                  <h5>Mi történik, ha egy ciklusban a feltétel soha nem teljesül?</h5>
+                </div>
+                <div class="card-body ">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes1" id="1kerdes" value="1">
+                    <label class="form-check-label" for="1kerdes">
+                        A ciklus egyszer végrehajtódik, és a program hibát jelez.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes1" id="2kerdes" value="2">
+                    <label class="form-check-label" for="2kerdes">
+                        A ciklus soha nem hajtódik végre, és a program folytatja a következő utasítások végrehajtását.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes1" id="3kerdes" value="3">
+                    <label class="form-check-label" for="3kerdes">
+                        A ciklus folyamatosan futni fog, végtelen ciklust okozva.
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Második card -->
+            <div class="col-md-6 mb-4 ">
+              <div class="card border-secondary mb-3">
+                <div class="card-header">
+                  <h5>Mi a fő célja egy "for" ciklusnak a programozásban?</h5>
+                </div>
+                <div class="card-body ">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes2" id="4kerdes" value="1">
+                    <label class="form-check-label" for="4kerdes">
+                        A ciklusok segítenek a program teljes futásának időtartamának csökkentésében.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes2" id="5kerdes" value="2">
+                    <label class="form-check-label" for="5kerdes">
+                        A ciklusok segítségével több alkalommal ismételhetünk egy műveletet, amíg egy feltétel teljesül.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="kerdes2" id="6kerdes" value="3">
+                    <label class="form-check-label" for="6kerdes">
+                        A ciklusok csak akkor hasznosak, ha a program egyes sorait véletlenszerűen kell végrehajtani.
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+
+        <div class="col-12"> 
+            <div class="col-2 container-fluid">
+                <div class="card">
+                    <div class="card-body" id="cb">
+
+                        <button class="btn  card-button" id="gomb" onclick="gomb()">Küldés</button>
+
+                        <div>
+                            <footer></footer>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> 
+</div>
+
+<script src="aaa.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
