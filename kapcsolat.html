@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="aa.css">
+<title>Title</title>
+<script src="kapcsolat.js"></script>
+</head>
+<body>
+    <div class="container-fluid fo p-2">
+        <nav class="navbar navbar-expand-lg mb-5"  id="navbarr">
+            <div class="container-fluid">
+              <h1 class="mx-3">Projekt</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" id="a"  href="#"><h5>Tananyag</h5></a>
+                  <a class="nav-link" id="a2"href="#"><h5>Tudáspróba</h5></a>
+                  <a class="nav-link active" id="a3" aria-current="page"><h5>Kapcsolat</h5></a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <div class="mx-auto">
+            <h2 class="text-center mb-4 d-sm-block d-md-none">Kapcsolatfelvételi Űrlap</h2>
+            <div class="row">
+                <form class="col-md-3 mx-auto" id="form">
+                    <div class="mb-3">
+                        <label for="message" class="form-label p-2" id="uzenet">Üzenet:</label>
+                        <textarea class="form-control w-100" id="textarea" rows="4" placeholder="Írja ide az üzenetét..."></textarea>
+                    </div>
+                    <input type="button" id="gomb" class="btn  w-25 mb-2" onclick="uzenetgomb()" value="Küldés">
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
