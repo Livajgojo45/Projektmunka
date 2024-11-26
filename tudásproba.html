@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="aaa.css">
+<link rel="stylesheet" href="aa.css">
+<link rel="stylesheet" href="tananyag.html">
+<link rel="stylesheet" href="kapcsolat.html">
 <style>
     .card-button {
         width: 100%;
@@ -23,7 +26,24 @@
 <title>Tudásproba</title>
 </head>
 <body>
-    <div class=" container-fluid p-3">
+    <div class=" container-fluid p-2">
+
+      <nav class="navbar navbar-expand-lg mb-4"  id="navbarr">
+        <div class="container-fluid">
+          <h1 class="mx-3">Projekt</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" id="a"  href="#"><h5>Tananyag</h5></a>
+              <a class="nav-link" id="a2"href="#"><h5>Tudáspróba</h5></a>
+              <a class="nav-link active" id="a3" aria-current="page"><h5>Kapcsolat</h5></a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
         <div class="row">
             <!-- Első card -->
             <div class="col-md-6 mb-4">
@@ -50,8 +70,14 @@
                         A ciklus folyamatosan futni fog, végtelen ciklust okozva.
                     </label>
                   </div>
+
+                  <footer class="p-2">
+                    <span id="eredmeny1"></span>
+                  </footer> 
+
                 </div>
-              </div>
+              </div>  
+              
             </div>
         
             <!-- Második card -->
@@ -79,6 +105,11 @@
                         A ciklusok csak akkor hasznosak, ha a program egyes sorait véletlenszerűen kell végrehajtani.
                     </label>
                   </div>
+
+                  <footer class="p-2">
+                    <span ></span>
+                  </footer> 
+                  
                 </div>
               </div>
             </div>
@@ -88,19 +119,15 @@
             <div class="col-2 container-fluid">
                 <div class="card">
                     <div class="card-body" id="cb">
-
                         <button class="btn  card-button" id="gomb" onclick="gomb()">Küldés</button>
-
-                        <div>
-                            <footer></footer>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div> 
 </div>
 
+<script src="tujdasproba.js"></script>
+<script src="kapcsolat.js"></script>
 <script src="aaa.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
