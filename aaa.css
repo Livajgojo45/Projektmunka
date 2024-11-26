@@ -1,0 +1,25 @@
+body{
+    background-color: #3d5a80   ;
+    color: #3d5a80;
+    font-size: larger;
+}
+button{
+    color: #e0fbfc;
+}
+h5{
+    color: #3d5a80;
+}
+#gomb{
+    color: #e0fbfc;
+    font-size: large;
+    background-color: #3d5a80;
+}
+.card{
+    background-color: #e0fbfc;
+}
+#cb{
+    background-color: #e0fbfc;
+}   
+footer{
+    background-color: #e0fbfc;
+}
