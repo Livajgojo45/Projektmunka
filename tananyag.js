@@ -5,7 +5,7 @@ function gomb() {
     // Ellenőrizni, hogy a mező nem üres
     if (nev == "") {
         hibauzenet.style.display = "block";
-        hibauzenet.textContent = "Kérlek, adj meg egy nevet!";
+        hibauzenet.textContent = "Kérlek, adj meg egy nevet";
         // Formázása
         hibauzenet.style.color = "red";
         hibauzenet.style.fontWeight = "bold";
@@ -26,4 +26,11 @@ function gomb() {
     valaszok.appendChild(valasz);
     valasz.style.color="#3d5a80"
     }
+
+    var image1 = document.getElementById("jskep");
+    image1.style.display = "block";
+
+    var image2 = document.getElementById("ckep");
+    image2.style.display = "block";
+
 }

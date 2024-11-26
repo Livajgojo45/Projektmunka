@@ -12,7 +12,7 @@
 <title>Tananyag űrlap</title>
 </head>
 <body>
-    <div class="  p-3">
+    <div class="p-3">
         <form>
             <fieldset>
                 <legend> <h3>Név bekérés</h3></legend>
@@ -31,13 +31,44 @@
                 </div>
             </fieldset>
         </form>
-        
-        <div class="col-md-6 card" id="card">
-            <div id="valaszok" class="mt-3"></div>
-            <div id="hibauzenet" class="hiba" style="display:none;"></div>
+
+
+    <div class="row">
+        <div class="card col-md-6">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="valaszok" class="mt-3 col-md-6"></div>
+                        
+
+                        
+                        <div id="hibauzenet" class="hiba" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-md-6">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div id="jskep" style="display: none;">
+                            <img src="jskep.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="ckep" style="display: none;">
+                            <img src="ckep.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
-<script src="ciklusokhoz.js"></script>
+</div>
 <script src="tananyag.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
